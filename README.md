@@ -54,30 +54,5 @@ These results demonstrate the superior capability of the CNN-GHO model in compar
 
 ---
 
-## 📂 Project Structure
-
-heart-disease-cnn-gho/
-│
-├── data/
-│ └── heart_disease.csv # Cleaned Cleveland dataset
-│
-├── models/
-│ ├── cnn_model.py # CNN architecture implementation
-│ └── cnn_gho_model.py # CNN + GHO hybrid model
-│
-├── optimization/
-│ └── grasshopper_optimizer.py # Grasshopper Optimization Algorithm
-│
-├── results/
-│ ├── accuracy_plot.png # Accuracy graph
-│ ├── loss_plot.png # Loss curve
-│ └── classification_report.txt # Precision, Recall, F1
-│
-├── utils/
-│ └── data_preprocessing.py # Data loading and preprocessing
-│
-├── main.py # Main script to run the model
-├── requirements.txt # Required Python packages
-└── README.md # Project documentation
----
-
+📂 Project Structure
+<pre> heart-disease-cnn-gho/ │ ├── data/ │ └── heart_disease.csv # Cleaned Cleveland dataset │ ├── models/ │ ├── cnn_model.py # CNN architecture implementation │ └── cnn_gho_model.py # CNN + GHO hybrid model │ ├── optimization/ │ └── grasshopper_optimizer.py # Grasshopper Optimization Algorithm │ ├── results/ │ ├── accuracy_plot.png # Accuracy graph │ ├── loss_plot.png # Loss curve │ └── classification_report.txt # Precision, Recall, F1 scores │ ├── utils/ │ └── data_preprocessing.py # Data loading and preprocessing │ ├── main.py # Main script to run the model ├── requirements.txt # Required Python packages └── README.md # Project documentation </pre>
